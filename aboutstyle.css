@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=League Spartan');
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://susanstripling.com/wp-content/uploads/2023/12/luxury-wedding-venues-NYC-Cipriani.jpg");
+    background-size:cover;
+    color: white;
+}
+.this:hover{
+    border-radius:50px;
+    background-color: #333;
+    color:palevioletred;
+    font-size:26px;
+}
+
+.this{
+    font-size:23px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'League Spartan';font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:'Montserrat';font-size: 20px;
+}
+
+main {
+    padding: 80px 20px 20px; /* Top padding to account for fixed header */
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h1, .about h2, .about p {
+    color: #333;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h2 {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.instagram {
+    background-color: #e1306c;
+}
+
+.social-icon.twitter {
+    background-color: #1da1f2;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

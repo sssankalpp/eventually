@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer Booking</title>
+    <link rel="stylesheet" href="orgstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">eventually.</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="cities.html">Cities</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <header>
+            <h1>Book Your Organizer</h1>
+        </header>
+        <form action="booked.html" method="GET">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Event Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="hall">Select Hall</label>
+                <select id="hall" name="hall" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Taj Mahal Palace">Taj Mahal Palace</option>
+  <option value="The St. Regis Mumbai">The St. Regis Mumbai</option>
+  <option value="JW Marriott Mumbai Sahar">JW Marriott Mumbai Sahar</option>
+  <option value="Grand Hyatt Mumbai">Grand Hyatt Mumbai</option>
+  <option value="Four Seasons Hotel Mumbai">Four Seasons Hotel Mumbai</option>
+  <option value="ITC Maratha, a Luxury Collection Hotel">ITC Maratha, a Luxury Collection Hotel</option>
+  <option value="The Oberoi, Mumbai">The Oberoi, Mumbai</option>
+  <option value="Sofitel Mumbai BKC">Sofitel Mumbai BKC</option>
+  <option value="Renaissance Mumbai Convention Centre Hotel">Renaissance Mumbai Convention Centre Hotel</option>
+  <option value="Trident, Nariman Point">Trident, Nariman Point</option>
+  <option value="The Lalit Mumbai">The Lalit Mumbai</option>
+  <option value="Novotel Mumbai Juhu Beach">Novotel Mumbai Juhu Beach</option>
+  <option value="The Leela Mumbai">The Leela Mumbai</option>
+  <option value="Holiday Inn Mumbai International Airport">Holiday Inn Mumbai International Airport</option>
+  <option value="Courtyard by Marriott Mumbai International Airport">Courtyard by Marriott Mumbai International Airport</option>
+  <option value="InterContinental Marine Drive-Mumbai">InterContinental Marine Drive-Mumbai</option>
+  <option value="Meluha The Fern">Meluha The Fern</option>
+  <option value="Sun-n-Sand Mumbai">Sun-n-Sand Mumbai</option>
+  <option value="The Westin Mumbai Garden City">The Westin Mumbai Garden City</option>    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="event-type">Type of Event</label>
+                <select id="event-type" name="event-type" required>
+                    <option value="Corporate Events">Corporate Events</option>
+                    <option value="Weddings">Weddings</option>
+                    <option value="Parties">Parties</option>
+                    <option value="Social Events">Social Events</option>
+                    <option value="Private Parties">Private Parties</option>
+                    <option value="Product Launches">Product Launches</option>
+                    <option value="Exhibitions">Exhibitions</option>
+                    <option value="Cultural Events">Cultural Events</option>
+                    <option value="Concerts">Concerts</option>
+                    <option value="Birthdays">Birthdays</option>
+                </select>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
