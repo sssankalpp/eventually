@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer Booking</title>
+    <link rel="stylesheet" href="orgstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">eventually.</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="cities.html">Cities</a>
+            <a href="about.html">About</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <div class="container">
+        <header>
+            <h1>Book Your Organizer</h1>
+        </header>
+        <form action="booked.html" method="GET">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Event Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="hall">Select Hall</label>
+                <select id="hall" name="hall" required>
+                    <option value="">--Please choose an option--</option>
+                    <option value="Rajyog Banquet Hall">Rajyog Banquet Hall</option>
+                    <option value="Mahalaxmi Hall">Mahalaxmi Hall</option>
+                    <option value="Sai Celebration Hall">Sai Celebration Hall</option>
+                    <option value="Shivtej Hall">Shivtej Hall</option>
+                    <option value="Gulmohar Banquet Hall">Gulmohar Banquet Hall</option>
+                    <option value="Royal Orchid Hall">Royal Orchid Hall</option>
+                    <option value="Kesar Hall">Kesar Hall</option>
+                    <option value="Sankalp Hall">Sankalp Hall</option>
+                    <option value="Blossom Banquet Hall">Blossom Banquet Hall</option>
+                    <option value="Gitanjali Hall">Gitanjali Hall</option>
+                    <option value="Prithvi Hall">Prithvi Hall</option>
+                    <option value="Kalpavriksha Hall">Kalpavriksha Hall</option>
+                    <option value="Parijat Hall">Parijat Hall</option>
+                    <option value="Snehangan Hall">Snehangan Hall</option>
+                    <option value="Mangalya Hall">Mangalya Hall</option>
+                    <option value="Vaibhav Hall">Vaibhav Hall</option>
+                    <option value="Aangan Hall">Aangan Hall</option>
+                    <option value="Shrinivas Hall">Shrinivas Hall</option>
+                    <option value="Ratnamala Hall">Ratnamala Hall</option>
+                    <option value="Suman Hall">Suman Hall</option>    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="event-type">Type of Event</label>
+                <select id="event-type" name="event-type" required>
+                    <option value="Corporate Events">Corporate Events</option>
+                    <option value="Weddings">Weddings</option>
+                    <option value="Parties">Parties</option>
+                    <option value="Social Events">Social Events</option>
+                    <option value="Private Parties">Private Parties</option>
+                    <option value="Product Launches">Product Launches</option>
+                    <option value="Exhibitions">Exhibitions</option>
+                    <option value="Cultural Events">Cultural Events</option>
+                    <option value="Concerts">Concerts</option>
+                    <option value="Birthdays">Birthdays</option>
+                </select>
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>

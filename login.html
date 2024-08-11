@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login & Register Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">eventually.</div>
+        
+    </header>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="process.php" method="POST">
+                <h2>Create Account</h2>
+                <!-- <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
+                </div> -->
+                <span>Register with E-mail</span>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Enter E-mail" required>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <button type="submit" name="signup">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form action="process.php" method="POST">
+                <h2>Login</h2>
+                <!--     <div class="social-icons">
+                    <a href="#" class="icons"><i class='bx bxl-google'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="icons"><i class='bx bxl-linkedin'></i></a>
+                </div> -->
+                <span>Login With Email & Password</span>
+                <input type="email" name="email" placeholder="Enter E-mail" required>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <button type="submit" name="signin">Login</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Have an account?</h1>
+                    <p>Login into exisiting account</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Create new Account</h1>
+                    <p>New to Eventually? Sign up now</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="loginreg.js"></script>
+</body>
+
+</html> */

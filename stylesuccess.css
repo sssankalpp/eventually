@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=League Spartan');
+
+body{
+    font-family:'Montserrat';font-size: 22px;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("https://susanstripling.com/wp-content/uploads/2023/12/luxury-wedding-venues-NYC-Cipriani.jpg");
+    background-size:cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 15%;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display:inline-block;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'League Spartan';font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left:40px;
+    top: 20px;
+}
+
+h1 {
+    color: #3a006d;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #3a006d;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #250042;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #aa00ff;
+}
